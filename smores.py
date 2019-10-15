@@ -33,3 +33,21 @@ print(math.pi)
 #
 # it takes 360000000
 
+# Accumulators
+
+acc = 0
+for val in range(1, 6):
+    acc = acc + val
+
+print(acc)
+
+# the range is from and including the first number to but not including the next number
+# the last number indicates
+
+#heres the sum of first 100 even numbers
+
+acc = 0
+for val in range(0, 201, 2)
+    acc = acc + val
+
+print acc
