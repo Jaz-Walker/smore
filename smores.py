@@ -91,6 +91,12 @@ for val in range(1, 11):
     acc = acc + val
     print(acc)
 
+# this equation shows you how to get the Nth fibonacci
 
+N = 3
+acc = 0
+for val in range(1, N):
+    acc = val + acc
+print(acc)
 
 
