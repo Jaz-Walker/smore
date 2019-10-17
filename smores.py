@@ -76,3 +76,13 @@ def average(N):
 
 print(average(6))
 
+# this function finds the product of N numbers where N is a parameter
+def factorial(N):
+    acc = 1
+    for factorial in range(1, N+1, 1):
+        acc = acc * factorial
+    print(acc)
+
+print(factorial(6))
+
+
