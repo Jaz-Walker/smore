@@ -85,4 +85,12 @@ def factorial(N):
 
 print(factorial(6))
 
+# this is the equation used to calculate the 10th fibonacci number
+acc = 0
+for val in range(1, 11):
+    acc = acc + val
+    print(acc)
+
+
+
 
