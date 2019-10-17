@@ -47,7 +47,32 @@ print(acc)
 #heres the sum of first 100 even numbers
 
 acc = 0
-for val in range(0, 201, 2)
+for val in range(0, 201, 2):
     acc = acc + val
+print (acc)
 
-print acc
+# the sum of the first 50 odd numbers
+
+acc = 0
+for val in range(1, 101, 2):
+    acc = acc + val
+print(acc)
+
+# First 100 odd numbers average
+
+acc = 0
+for val in range(1, 201, 2):
+    acc = acc + val / 100
+
+print(acc)
+
+# function for the average of N numbers where N is a parameter
+
+def average(N):
+    acc = 0
+    for average in range(0, 37, N):
+        acc = acc + average
+    print(acc/N)
+
+print(average(6))
+
