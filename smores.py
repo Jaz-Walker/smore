@@ -108,6 +108,31 @@ import  random
 
 print(random.random())
 
+#boolean expression
+# <, <=, >, >=, ==, !=
+# compound boolean expressions
+# and, or, not
+# these are used to check both functions
+
+
+dogWeight = 25
+print(dogWeight < 25)
+catWeight = 12
+print(dogWeight >= 25 and catWeight >= 10)
+print(not catWeight <= 10)
+
+# decision making skills
+
+
+alice = 20
+bob = 15
+carol = 25
+ans = 0
+if alice > 20:
+    ans = 300
+
+else:
+    ans = 75
 
 
 
