@@ -100,3 +100,15 @@ for val in range(1, N):
 print(acc)
 
 
+# A monte Carlo simulation
+
+# random numbers
+
+import  random
+
+print(random.random())
+
+
+
+
+
