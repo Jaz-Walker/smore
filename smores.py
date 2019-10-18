@@ -135,5 +135,30 @@ else:
     ans = 75
 
 
+value = 75
+if value > 10:
+    print("Bigger than 10")
+else:
+    if value > 20:
+        print("bigger than 20")
+    else:
+        if value > 45:
+            print("bigger than 45")
+        else:
+            print("not bigger than much")
+
+value = 75
+if value > 100:
+    print("Bigger than 100")
+else:
+    if value > 90:
+        print("bigger than 90")
+    else:
+        if value > 45:
+            print("bigger than 45")
+        else:
+            print("not bigger than much")
+
+
 
 
