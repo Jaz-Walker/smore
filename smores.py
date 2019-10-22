@@ -159,6 +159,20 @@ else:
         else:
             print("not bigger than much")
 
+def montePi(numDarts):
+
+    inCircle = 0
+
+    for i in range(numDarts):
+        x = random.random()
+        y = random.random()
+
+        distance = math.sqrt(x**2 + y**2)
+
+    pi = inCircle / numDarts * 4
+    return pi
+
+
 
 
 
